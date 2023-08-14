@@ -1,0 +1,58 @@
+/* #all-issues {
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    box-shadow: 3px 3px 5px 3px black;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+ul li {
+    list-style-type: none;
+} */
+
+/* CSS code for styling the issues list */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #all-issues {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #all-issues h4 {
+    margin: 0;
+  }
+  
+  #all-issues h5, #all-issues h6 {
+    margin: 5px 0;
+  }
+  
+  #all-issues h6 {
+    font-weight: normal;
+  }
+  
+  #all-issues p {
+    margin: 0;
+  }
+  
+  #all-issues p.labels {
+    margin-top: 5px;
+  }
+  
+  /* Additional styles for better aesthetics */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h4, h5, h6 {
+    margin: 0;
+  }

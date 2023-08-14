@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#issues-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#filter-issue-container,
+#search-issue-container {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="checkbox"],
+input[type="radio"] {
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#issues-list {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Add more specific styles as needed */
+

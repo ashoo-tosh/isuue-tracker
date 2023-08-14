@@ -1,0 +1,65 @@
+
+body, h2, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Set background color and center align the header */
+  #nav {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.5rem;
+  }
+  
+  /* Style the header buttons */
+  .header-btn {
+    margin: 5px;
+  }
+  
+  /* Style the links */
+  .header-btn a h2{
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+
+  
+  /* Style the links on hover */
+  .header-btn a:hover {
+    background-color: #ddd;
+    color: #000;
+  }
+  
+  /* Style the headings */
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Style the header when active */
+  .active {
+    background-color: #ddd;
+  }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #47aa47ce;
+    color: #333;
+    text-decoration: none;
+    border: none;
+    transition: box-shadow 0.3s ease;
+    border-radius: 7%;
+}
+
+.button:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
